@@ -26,5 +26,6 @@ def generate():
     story = generate_story(character, setting, problem, action)
     return render_template('index.html', story=story)
 
+
 if __name__ == '__main__':
     app.run(debug=True)
